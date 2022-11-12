@@ -1,11 +1,17 @@
-# Sample Snack app
+Desenvolvi esse aplicativo no objetivo de testar meu conhecimento.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+---Linguagem---
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo-cli](https://docs.expo.io/get-started/installation).
+Javascript
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+---Bibliotecas---
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.io/c/snack).
+React
+React native
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+---Banco de dados NoSQL---
+
+Firebase
+
+
+Nesse desafio, utilizei o firebase que é um banco de dados não relacional armazenado em nuvem, nele tem um recurso chamado Realtime database (um banco de dados em tempo real), usei para poder receber os feedbacks do usuário em tempo real, e é usado o Storage (outro recurso dentro do firebase) para fazer upload da imagem caso o usuário optar por colocar uma imagem, para exibir essas informações, importei a biblioteca React Native, que é usada para renderizar em forma de componentes no mundo mobile, é como se fosse o HTML, e o StyleSheet (componente react native) no caso representaria o CSS, que é usado para a estilização, e na biblioteca React importei os hooks para atualizar os estados dos compentes.
